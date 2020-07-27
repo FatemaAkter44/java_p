@@ -1,6 +1,6 @@
-public class p13 {
+public class buzz{
     public static void main(String[] args){
-     int user_input = 1;
+     int user_input = 5;
      if(user_input % 5 == 0 && user_input % 3 == 0)
      System.out.println("FizzBuzz");
      else if (user_input % 5 == 0)

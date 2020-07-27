@@ -1,4 +1,4 @@
-public class p8{
+public class castPrac{
     public static void main(String[] args){
         //Explicit casting
         double x = 1.1;
@@ -10,12 +10,12 @@ public class p8{
         System.out.println(zz);
 
         //float r = 3333333.33333; error: incompatible types: possible lossy conversion from double to float
-        float r = 333.333;
-        float rr = 666.666;
-        //double r = 333.333;
-        //double rr = 666.666;
+        //float r = 333.333;
+        //float rr = 666.666;
+        double r = 333.333;
+        double rr = 666.666;
         //int rrr = r + rr; //incompatible types: possible lossy conversion from float to int
-        int rrr = (int)r + (int)rr;
+        double rrr = r +rr;
         System.out.println(rrr);
     }
 }
